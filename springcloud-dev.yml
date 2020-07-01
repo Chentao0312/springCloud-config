@@ -16,8 +16,8 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:10080/eureka
 instance:
-  创建完user-dev.yml配置文件之后，gitee中的仓库如下：
-  3.3. 搭建配置中心微服务
+  ##创建完user-dev.yml配置文件之后，gitee中的仓库如下：
+  ##3.3. 搭建配置中心微服务
   ip-address: 127.0.0.1
   prefer-ip-address: true
   lease-expiration-duration-in-seconds: 90
