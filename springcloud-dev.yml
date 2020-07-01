@@ -10,7 +10,7 @@ spring:
   #应用名
     name: user-service
 mybatis:
-  type-aliases-package: com.itheima.user.pojo
+  type-aliases-package: com.chen.springCloudConfig.pojo
 eureka:
   client:
     service-url:
