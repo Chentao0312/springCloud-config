@@ -1,24 +1,16 @@
 server:
-  port: ${port:11011}
+  port: 11000
 spring:
+  application:
+    name: account-select
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://192.168.32.166:3306/basis
-      username: root
-      password: 123456
-  application:
-  #应用名
-    name: account-web
-mybatis:
-  type-aliases-package: com.chen.springCloudSelect.pojo
+    url: jdbc:mysql://192.168.75.128:3306/basis
+    username: root
+    password: 123456
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:10010/eureka
-instance:
-  ##创建完user-dev.yml配置文件之后，gitee中的仓库如下：
-  ##3.3. 搭建配置中心微服务
-  ip-address: 127.0.0.1
-  prefer-ip-address: true
-  lease-expiration-duration-in-seconds: 90
-  lease-renewal-interval-in-seconds: 30
+      defaultZone: http://localhost:10000/eureka
+mybatis:
+  type-aliases-package: com.chen.springCloudSelect.pojo
