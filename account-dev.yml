@@ -8,10 +8,6 @@ spring:
     url: jdbc:mysql://192.168.75.128:3306/basis
     username: root
     password: 123456
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:10000/eureka
 mybatis:
   type-aliases-package: com.chen.springCloudSelect.pojo 
   
