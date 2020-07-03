@@ -10,4 +10,7 @@ spring:
     password: 123456
 mybatis:
   type-aliases-package: com.chen.springCloudSelect.pojo 
+test:
+  name: chentao
+  
   
