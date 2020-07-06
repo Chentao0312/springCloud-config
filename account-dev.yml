@@ -11,6 +11,6 @@ spring:
 mybatis:
   type-aliases-package: com.chen.springCloudSelect.pojo 
 test:
-  name: chentao
+  name: chentao-is-you-baba
   
   
